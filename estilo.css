@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
+header {
+    background-color: rgb(80, 80, 80);
+}
+.topo{
+    width: 1200px;
+    margin: auto; 
+}
+header img {
+    float: left;
+    border: 2px solid rgb(226, 223, 223);
+    margin: 25px 40px;
+}
+header p{
+    text-align: right;
+    color: white;
+    margin-right: 45px;
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+h1 {
+	font-family: Times New Roman, serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    margin: 15px 50px;
+}
+nav {
+	background-color: black;
+}
+.menu{
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+}
+nav ul {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+    text-decoration: none;
+	font-size: 20px;
+	width: 232px;
+	display: block;
+	text-align: center;
+	padding: 12px 4px 12px 4px;
+	color: white;
+}
+nav ul li a:hover {	
+	background-color: white;
+	color: rgb(0, 0, 211);
+}
+main {
+    background-color: white;
+}
+.corpo {
+    width: 1125px;
+    padding: 25px 0;
+    margin: auto; 
+}
+.corpo .vid{
+    float: right;
+    width: 500px;
+}
+.corpo .vidpontostur{
+    padding: 0 0 0 150px;
+}
+.corpo .vidpratos{
+    padding: 0 0 0 180px;
+}
+main h2 {
+    color: #001a49;
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+main h3{
+    color: black;
+    font-size: 20px;
+}
+main p {
+    line-height: 30px;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 10px 0 20px;
+}
+main img {    
+    border: 13px groove rgb(180, 180, 180);
+    margin: 10px 0 25px;
+}
+.texto {
+    float: left;
+    width: 500px;   
+}
+.video {
+    float: left;
+    margin-bottom: 10px;
+}
+table{
+    width: 550px;
+    border-collapse: collapse;
+    border: 2px solid rgb(129, 129, 129);
+    padding: 10px;
+    text-align: center;
+    table-layout: fixed;
+}
+td {
+    border: 1px solid rgb(235, 235, 235);
+    padding: 6px;
+}
+th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: #001946;
+    color: white;
+}
+footer {
+    clear: both;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    padding: 35px 0 30px;
+    letter-spacing: 1px;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
